@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data
+data/*
+!data/demo_samples/
+!data/demo_samples/*
+*.csv
+*.h5
+*.hdf5
+
+# Results
+results/
+checkpoints/
+logs/
+wandb/
+experiments/results/
+*.pth
+!experiments/results_real/**/model_best.pth
+*.pt
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.pdf
+
+# Experiment outputs
+experiments/*.log
+*.npz
+*.npy
